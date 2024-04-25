@@ -1,0 +1,139 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #eaeded;
+}
+
+.app {
+  width: 90%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product,
+.cart-item {
+  background: linear-gradient(to right, #ffffff, #f7f7f7);
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img,
+.cart-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product h3,
+.cart-item h4 {
+  margin: 0;
+  color: #333;
+}
+
+.product p,
+.cart-item p {
+  font-size: 18px;
+  color: #b12704;
+}
+
+.button {
+  background: linear-gradient(to right, #f7dfa5, #f0c14b);
+  border: 1px solid #a88734;
+  color: #111;
+  padding: 8px 10px;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #f0c14b, #f7dfa5);
+}
+
+input[type="number"] {
+  width: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.cart {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.cart h2,
+.app h1 {
+  color: #333;
+}
+
+.cart h3 {
+  margin-top: 20px;
+  color: #b12704;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cart-item div {
+  flex-grow: 1;
+}
+
+.cart-item button {
+  min-width: 32px;
+  padding: 0 8px;
+}
+
+.pagination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination button {
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pagination button:disabled:hover {
+  background-color: #cccccc;
+}
+
+.prices-product {
+  margin-left: 25px;
+}
+
+.remove {
+  margin-left: 5px;
+}
